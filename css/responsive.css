@@ -1,5 +1,34 @@
+@media only screen and (max-width:767px) {
+    .header.shop .topbar .top-left {
+        text-align: center;
+    }
+    .header.shop .topbar .right-content {
+        text-align: center;
+        float: none;
+        margin-top: 8px;
+    }
+}
 @media only screen and (max-width:450px){
     .header.shop .topbar {
-        background: red;
+        /* background: red; */
+    }
+    .header.shop .topbar .top-left {
+        text-align: center;
+    }
+    .header.shop .topbar .right-content {
+        margin-top: 0px;
+        border-top: 1px solid #ffffff87;
+        text-align: center;
+        float: none;
+    }
+    
+    .header.shop .list-main li {
+        border: none;
+        padding: 0;
+        display: block;
+        padding: 5px 0;
+        border-bottom: 1px solid #eee;
+        text-align: left;
+        color: #333;
     }
 }
