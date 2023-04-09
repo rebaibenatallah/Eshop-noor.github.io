@@ -1,4 +1,5 @@
 @media only screen and (max-width:767px) {
+    /* start topbar */
     .header.shop .topbar .top-left {
         text-align: center;
     }
@@ -7,11 +8,16 @@
         float: none;
         margin-top: 8px;
     }
+    /* end topbar */
+
+    /* start middle inner */
+    .header .middle-inner {
+        width: 100%;
+    }
+    /* end middle inner */
 }
 @media only screen and (max-width:450px){
-    .header.shop .topbar {
-        /* background: red; */
-    }
+    /* start topbar */
     .header.shop .topbar .top-left {
         text-align: center;
     }
@@ -31,4 +37,8 @@
         text-align: left;
         color: #333;
     }
+    /* end topbar */
+
+    /* start middle inner */
+    /* end middle inner */
 }
