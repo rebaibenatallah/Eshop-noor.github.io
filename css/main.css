@@ -1,0 +1,64 @@
+:root{
+    --background-color: #add8e6;
+}
+body {
+    color: #424646;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+}
+/* start topbar */
+.header.shop {
+    background: #fff;
+}
+.header.shop .topbar {
+    background-color: #fff;
+    border: none;
+    padding: 12px 0px;
+}
+.header.shop .top-left .list-main li:first-child {
+    padding-left: 0;
+}
+.header.shop .list-main li {
+    display: inline-block;
+    color: #333;
+    font-size: 13px;
+    font-weight: 500;
+    border-right: 1px solid #f0f0f0;
+    padding: 0px 13px;
+}
+.header.shop .list-main li a {
+    color: #333;
+}
+.header.shop .top-left .list-main li i {
+    display: inline-block;
+    margin-right: 4px;
+    font-size: 15px;
+    color: var(--background-color);
+    position: relative;
+    top: 3px;
+}
+.header.shop .right-content {
+    float: right;
+}
+.header.shop .list-main li i {
+    display: inline-block;
+    margin-right: 4px;
+    font-size: 15px;
+    color: var(--background-color);
+    position: relative;
+    top: 3px;
+}
+/* end topbar */
+.header .logo {
+    float: left;
+    margin-top: 35px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.header .navbar {
+    padding: 0;
+}
