@@ -145,6 +145,11 @@ body {
     text-align: center;
     margin-top: 10px;
 }
+.header.shop .mobile-nav .slicknav_menu a i {
+    display: none;
+    font-size: 28px;
+    color: #add8e6;
+}
 .header.shop .nice-select {
     clear: initial;
     margin: 0;

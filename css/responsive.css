@@ -61,6 +61,14 @@
         right: 50px;
         top: 4px;
     }
+    .header.shop .mobile-nav {
+        display: block;
+        position: absolute;
+        right: 18px;
+    }
+    .header.shop .mobile-nav .slicknav_menu a i {
+        display: block;
+    }
     .slicknav_menu {
         display: block;
         background: transparent;
