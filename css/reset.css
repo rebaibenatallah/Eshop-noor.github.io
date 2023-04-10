@@ -5,6 +5,10 @@
 *, *:before, *:afrer {
     box-sizing: inherit;
 }
+html {
+    font-family: 'Poppins', sans-serif;
+    text-size-adjust: 100%;
+}
 body, button, input, select, optgroup, textarea {
     color: #424646;
     font-family: 'Poppins', sans-serif;
@@ -62,4 +66,51 @@ p {
     color: #757575;
     margin: 0;
     line-height: 24px;
+}
+/* *, *:before, *:after {
+    box-sizing: inherit;
+} */
+.middle-inner .right-bar i{
+    box-sizing: inherit;
+    font-size: 18px;
+}
+.slicknav_menu .slicknav_menutxt {
+    display: block;
+    line-height: 1.188em;
+    float: left;
+    color: #fff;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+.slicknav_menu, .slicknav_menu * {
+    box-sizing: border-box;
+}
+.slicknav_menu .slicknav_no-text {
+    margin: 0;
+}
+.slicknav_menu:after, .slicknav_menu:before {
+    content: " ";
+    display: table;
+}
+.slicknav_menu .slicknav_icon {
+    float: left;
+    width: 1.125em;
+    height: 0.875em;
+    margin: 0.188em 0 0 0.438em;
+}
+.slicknav_menu .slicknav_icon:before {
+    background: 0 0;
+    width: 1.125em;
+    height: 0.875em;
+    display: block;
+    content: "";
+    position: absolute;
+}
+.slicknav_nav {
+    font-size: .875em;
+}
+.slicknav_nav , .slicknav_nav ul {
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
 }

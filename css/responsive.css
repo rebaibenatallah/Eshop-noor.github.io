@@ -1,3 +1,41 @@
+@media only screen and (min-width:768px) and (max-width:991px) {
+    /* start topbar */
+    .header.shop .topbar .top-left {
+        text-align: center;
+    }
+    .header.shop .topbar .right-content {
+        text-align: center;
+        float: none;
+        margin-top: 8px;
+    }
+    /* end topbar */
+    /* start middle-inner */
+    .header.shop .search-bar {
+        width: 445px;
+        height: 45px;
+    }
+    .header.shop .nice-select {
+        height: 44px;
+        line-height: 44px;
+        font-size: 13px;
+    }
+    .header.shop .nice-select .list li {
+        font-size: 13px;
+    }
+    .header.shop .search-bar input {
+        padding: 0 52px 0 20px;
+        width: 264px;
+        height: auto;
+        font-size: 13px;
+    }
+    .header.shop .search-bar .btnn {
+        height: 45px;
+        line-height: 45px;
+        font-size: 14px;
+    }
+    /* end middle-inner */
+}
+
 @media only screen and (max-width:767px) {
     /* start topbar */
     .header.shop .topbar .top-left {
@@ -13,6 +51,47 @@
     /* start middle inner */
     .header .middle-inner {
         width: 100%;
+    }
+    .header.shop .logo {
+        margin: 0;
+    }
+    .header.shop .search-top {
+        display: block;
+        position: absolute;
+        right: 50px;
+        top: 4px;
+    }
+    .slicknav_menu {
+        display: block;
+        background: transparent;
+        padding: 0;
+    }
+    .slicknav_btn {
+        background: transparent;
+        padding: 0;
+        margin: 6px 0 0;
+    }
+    .slicknav_menu .slicknav_icon-bar {
+        background: #add8e6;
+        display: block;
+        width: 25px;
+        height: 3px;
+        border-radius: 1px;
+        box-shadow: 0 1px 0 rgba(0, 0, 0, .25);
+        text-shadow: none;
+    }
+    .slicknav_nav {
+        clear: both;
+        color: #fff;
+        margin: 0;
+        background: transparent;
+        padding: 15px;
+    }
+    .header.shop .search-bar-top {
+        display: none;
+    }
+    .header.shop .right-bar {
+        display: none;
     }
     /* end middle inner */
 }
