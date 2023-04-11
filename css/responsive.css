@@ -33,7 +33,19 @@
         line-height: 45px;
         font-size: 14px;
     }
+    .header.shop .all-category {
+        display: none;
+    }
+    .navbar-nav {
+        display: inline-block !important;
+    }
+    .header.shop .nav li {
+        display: inline-block;
+        margin-right: 2px;
+    }
     /* end middle-inner */
+    /* start hero-slider */
+    /* end hero-slider */
 }
 
 @media only screen and (max-width:767px) {
@@ -102,6 +114,12 @@
         display: none;
     }
     /* end middle inner */
+    /* start header inner */
+    .header.shop .header-inner {
+        display: none;
+    }
+    /* end header inner */
+    
 }
 @media only screen and (max-width:450px){
     /* start topbar */
