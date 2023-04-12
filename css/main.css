@@ -145,6 +145,9 @@ body {
     text-align: center;
     margin-top: 10px;
 }
+.header.shop .mobile-nav {
+    display: none;
+}
 .header.shop .mobile-nav .slicknav_menu a i {
     display: none;
     font-size: 28px;
@@ -209,11 +212,17 @@ body {
 .header.shop .nice-select .list {
     border-radius: 0px;
 }
+.nice-select .list.active {
+    opacity: 1;
+    overflow: visible;
+    transform: translateY(-21px);
+}
 .nice-select .list {
     background: #fff;
-    box-sizing: 0 0 0 1px rgba(68, 68, 68, 0.11);
+    box-shadow: 0 0 0 1px rgba(68, 68, 68, 0.11);
     box-sizing: border-box;
-    margin-top: 4px;
+    margin-top: 25px;
+    /* margin-left: -19px; */
     opacity: 0;
     overflow: hidden;
     padding: 0;
@@ -222,7 +231,7 @@ body {
     top: 100%;
     left: 0;
     transform-origin: 50% 0;
-    transform: scale(0.75) translateY(-21px);
+    transform: scale(1) translateY(-30px);
     transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
     z-index: 9;
 } 
@@ -241,14 +250,17 @@ body {
     list-style: none;
     min-height: 40px;
     outline: none;
-    padding-left: 18px;
-    padding-right: 29px;
+    padding-left: 17px;
+    padding-right: 47px;
     text-align: left;
     transition: all 0.2s;
 }
 .header.shop .nice-select::after {
     border-color: #666;
     right: 20px;
+}
+.nice-select.active:after {
+    transform: rotate(-135deg);
 }
 .nice-select:after {
     border-bottom: 2px solid #999;

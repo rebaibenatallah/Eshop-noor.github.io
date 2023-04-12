@@ -74,6 +74,10 @@ p {
     box-sizing: inherit;
     font-size: 18px;
 }
+.slicknav_menu:after,
+.slicknav_menu:before {
+    clear: both;
+}
 .slicknav_menu .slicknav_menutxt {
     display: block;
     line-height: 1.188em;
