@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/test.css">
+    <link rel="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+    <!-- <script src="SlickNav/jquery.slicknav.min.js"></script> -->
     <title>Eshop-Noor</title>
     
 </head>
@@ -71,7 +75,7 @@
                         <div class="search-top">
                             <div class="top-search">
                                 <a href="#0">
-                                    <i class="bx bx-search"></i>
+                                    <i class="bx bx-search" id="search-bar"></i>
                                 </a>
                             </div>
                             <div class="search-top">
@@ -86,16 +90,16 @@
 
                         <div class="mobile-nav">
                             <div class="slicknav_menu">
-                                <a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_open" style="outline: none;">
+                                <a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed" style="outline: none;">
                                     <span class="slicknav_menutxt"></span>
                                     <!-- <span class="slicknav_icon slicknav_no-text">
                                         <span class="slicknav_icon-bar"></span>
                                         <span class="slicknav_icon-bar"></span>
                                         <span class="slicknav_icon-bar"></span>
-                                    </span> -->
+                                    </span>  -->
                                     <i class='bx bx-menu' id="button_menu"></i>
                                 </a>
-                                <ul class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="">
+                                <ul id="menu" class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="">
                                     <li class="active">
                                         <a href="#" role="menuitem" tabindex="-1">Home</a>
                                     </li>
@@ -321,7 +325,7 @@
                                              odiy maboriosm.
                                         </p>
                                         <div class="button">
-                                            <a href="#" class="btn">Shop Now</a>
+                                            <a href="#" class="btn">Shop Now!</a>
                                         </div>
                                     </div>
                                 </div>
@@ -332,6 +336,44 @@
             </div>
         </div>
     </section>
+    <section class="small-banner section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="single-banner">
+                        <img src="imgs/images/g1.png" alt="">
+                        <div class="content">
+                            <p>Shawl Collectons</p>
+                            <h3>Nice Shawl</h3>
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="single-banner">
+                        <img src="imgs/images/g2.jpg" alt="">
+                        <div class="content">
+                            <p>Bag Collectons</p>
+                            <h3>Awesome Bag  <br>  2020</h3>
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="single-banner tab-height">
+                        <img src="imgs/images/g3.png" alt="#">
+                        <div class="content">
+                            <p>Accessories Collectons</p>
+                            <h3>Mid Season  <br>  Up to  <Span>40%</Span>  off</h3>
+                            <a href="#">Discover Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/test.js"></script>
 </body>
 </html>

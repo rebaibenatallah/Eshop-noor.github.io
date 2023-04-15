@@ -62,6 +62,7 @@ body {
     padding: 20px 0;
     background: rgb(255, 255, 255);
     border-top: 1px solid #eee;
+    box-sizing: inherit;
 }
 .header.shop .logo {
     float: left;
@@ -88,6 +89,11 @@ body {
 }
 .header .search-top a {
     font-size: 17px;
+}
+.header .search-top.active .search-form {
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
 }
 .header .search-form {
     position: absolute;
@@ -611,3 +617,46 @@ body {
     z-index: 0;
 }
 /* end hero-slider */
+/* start small-banner */
+.small-banner {
+    padding: 30px 0;
+    padding-bottom: 0;
+}
+.small-banner .single-banner {
+    overflow: hidden;
+    position: relative;
+}
+.small-banner .single-banner img {
+    height: 100%;
+    width: 100%;
+    transition: all 0.4s ease;
+}
+.small-banner .single-banner .content {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 35px;
+}
+.small-banner .single-banner P {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.small-banner .single-banner h3 {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #333;
+}
+.small-banner .single-banner a {
+    color: #333;
+    margin-top: 22px;
+    font-size: 12px;
+    font-weight: 500;
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 2px solid #333;
+}
+/* end small-banner */

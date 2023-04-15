@@ -46,6 +46,16 @@
     /* end middle-inner */
     /* start hero-slider */
     /* end hero-slider */
+
+/* start small-banner */
+
+    .small-banner .single-banner {
+        margin-bottom: 18px;
+    }
+    .small-banner .single-banner.tab-height {
+        height: 300px;
+    }
+/* end small-banner */
 }
 
 @media only screen and (max-width:767px) {
@@ -105,30 +115,27 @@
         box-shadow: 0 1px 0 rgba(0, 0, 0, .25);
         text-shadow: none;
     }
-    .slicknav_nav.slicknav_hidden {
-        /* display: block; */
-        position: absolute;
-        transform: translateY(-20px);
-        opacity: 0;
-        overflow: hidden;
-    }
     .slicknav_nav {
+        /* background: red; */
         margin-left: 0px;
-        clear: both;
+        /* clear: both; */
         color: #fff;
         /* display: none; */
         opacity: 1;
         overflow: visible;
         pointer-events: none;
-        position: relative;
         transform-origin: 50% 0;
-        transform: scale(1) translateY(0px);
+        transform: scaleY(1) translateY(0px);
         /* margin-top: -100px; */
         z-index: 500;
-        transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-in-out;
         /* transition: all 1.5s ease; */
     }
-    
+    .slicknav_nav.slicknav_hidden {
+        transform: scaleY(0) translateY(-20px);
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+    }
     .slicknav_nav ul {
         
     }
@@ -162,6 +169,33 @@
         display: none;
     }
     /* end header inner */
+
+    /* start hero-slider */
+    .hero-slider {
+        height: 350px;
+    }
+    .hero-slider .hero-text {
+        margin-top: 60px;
+    }
+    .hero-slider .hero-text h1 {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    .hero-slider .hero-text p {
+        color: #333;
+        margin-bottom: 28px;
+    }
+    .hero-slider .hero-text .btn {
+        padding: 10px 25px;
+    }
+    /* end hero-slider */
+
+/* start small-banner */
+
+    .small-banner .single-banner {
+        margin-bottom: 18px;
+    }
+/* end small-banner */
     
 }
 @media only screen and (max-width:450px){
@@ -189,4 +223,21 @@
 
     /* start middle inner */
     /* end middle inner */
+
+/* start small-banner */
+
+    .small-banner .single-banner .content{
+        padding: 12px 10px 10px 35px;
+    }
+    .small-banner .single-banner p {
+        font-size: 13px;
+    }
+    .small-banner .single-banner h3 {
+        font-size: 17px;
+    }
+    .small-banner .single-banner a {
+        margin-top: 15px;
+        font-size: 11px;
+    }
+/* end small-banner */
 }

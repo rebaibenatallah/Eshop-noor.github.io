@@ -10,8 +10,20 @@ nice_select.onclick = function(){
 
 // start menu
 let button_menu = document.getElementById('button_menu');
-let slicknav_nav = document.querySelector('.slicknav_nav');
+let slicknav_nav = document.getElementById('menu');
 button_menu.onclick = function(){
     slicknav_nav.classList.toggle('slicknav_hidden');
+    console.log(4);
 }
+// $(function(){
+//     $('#menu').slicknav();
+// });
 // end menu
+
+// start search bar
+let search_bar = document.getElementById('search-bar');
+let search_top = document.querySelector('.search-top');
+search_bar.onclick = function(){
+    search_top.classList.toggle('active');
+}
+// end search bar
