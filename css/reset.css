@@ -42,6 +42,7 @@ a , a:hover {
 }
 a {
     color: inherit;
+    text-decoration: none;
 }
 a:visited {
     color: inherit;
@@ -121,4 +122,29 @@ p {
 .section {
     padding: 100px 0 ;
     position: relative;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+    pad: 0 215px;
+}
+.section-title h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    position: relative;
+    color: #2c2d3f;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+.section-title h2::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 50px;
+    background: #add8e6;
+    left: 50%;
+    bottom: 0;
+    margin-left: -25px;
 }

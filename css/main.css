@@ -660,3 +660,119 @@ body {
     border-bottom: 2px solid #333;
 }
 /* end small-banner */
+/* start product area */
+.product-area .nav-tabs {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    border: none;
+}
+.product-area .nav-tabs .nav-item {
+    margin-bottom: -1px;
+    display: inline-block;
+}
+.product-area .nav-tabs li a {
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    margin-right: 5px;
+    font-weight: 500;
+    padding: 3px 14px;
+    border-radius: 3px;
+    font-size: 13px;
+    color: #333;
+}
+.product-area .nav-tabs li a.active ,
+.product-area .nav-tabs li:hover a {
+    background: #add8e6 ;
+    color: #fff;
+    border-color: transparent;
+}
+.single-product {
+    margin-top: 50px;
+}
+.single-product .product-img {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.single-product .product-img a {
+    display: block;
+    position: relative;
+}
+.single-product .product-img a img {
+    width: 100%;
+}
+.single-product .product-content {
+    margin-top: 20px;
+}
+.single-product .product-content h3 {
+    line-height: 22px;
+}
+.single-product .product-content h3 a {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+.single-product .product-content .product-price {
+    margin: 6px 0 0 0;
+}
+.single-product .product-content .product-price span {
+    font-size: 15px;
+    font-weight: 500;
+}
+.single-product:hover .button-head {
+    bottom: 0;
+}
+.single-product .button-head {
+    background: #fff;
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 9;
+    height: 50px;
+    line-height: 50px;
+    transition: all 0.4s ease;
+}
+.single-product .product-img .product-action {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    border-radius: 3px;
+}
+.single-product .product-img .product-action a {
+    background-color: transparent;
+    color: #333;
+    font-size: 16px;
+    display: inline-block;
+    margin-right: 15px;
+    text-align: right;
+    height: 52px;
+    position: relative;
+    top: 2px;
+}
+.single-product .product-img .product-action a i {
+    line-height: 40px;
+}
+.single-product .product-img .product-action a span {
+    visibility: hidden;
+    position: absolute;
+    color: #fff in !important;
+    text-align: center;
+    padding: 5px 12px;
+    z-index: 3;
+    opacity: 0;
+    transition: opacity .6s, margin .3s;
+    font-size: 11px;
+    right: 0;
+    line-height: 14px;
+    top: -5px;
+    margin-right: 0;
+    display: inline-block;
+    width: 120px;
+    border-radius: 15px 0 0 15px;
+}
+/* end product area */
