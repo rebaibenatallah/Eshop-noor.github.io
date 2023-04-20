@@ -1,17 +1,25 @@
-$('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:4
+jQuery(document).ready(function($){
+    "use strict";
+
+    $('#customers-testmonials').owlCarousel({
+        loop: true,
+        center: true,
+        margin: 0,
+        autoplay: true,
+        dots:true,
+        autoplayTimeout:8500,
+        smartSpeed: 450,
+        responsive: {
+            0: {
+                items: 1
+            },
+            768: {
+                items: 2
+            },
+            1170: {
+                items: 3
+            }
         }
-    }
-})
+    });
+    
+});
