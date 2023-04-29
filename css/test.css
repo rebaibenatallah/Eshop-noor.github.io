@@ -1,98 +1,80 @@
-/* start footer */
-.footer{
-    background: #222;
-    box-sizing: inherit;
+/* start blog */
+.blog-single {
+    background: #fff;
+    padding: 70px 0 100px;
 }
-.footer .about {
-    padding-right: 50px;
+.shop-blog.grid .shop-single-blog {
+    margin-top: 30px;
+    text-align: center;
 }
-.footer .about .logo {
-    margin-bottom: 14px;
+.shop-blog .shop-single-blog img {
+    height: 100%;
+    width: 100%;
 }
-.footer .about .logo img {
-    max-width: 60%;
+.shop-blog .shop-single-blog .content {
+    padding: 40px;
 }
-.footer .about .text {
-    color: #fff;
+.shop-blog .shop-single-blog .content .date {
+    font-size: 14px;
     font-weight: 400;
+    margin-bottom: 5px;
+    color: #b7b7b7;
 }
-.footer .about .call {
-    color: #fff;
-    margin-top: 15px;
-    font-weight: 400;
-}
-.footer .about .call span {
-    display: block;
-}
-.footer .about .call a {
-    color: #add8e6;
-    font-size: 20px;
-    font-weight: 600;
-}
-.footer .single-footer h4 {
+.shop-blog .shop-single-blog .content .title {
     font-size: 17px;
     font-weight: 600;
-    color: #fff;
-    text-transform: capitalize;
-    margin-bottom: 30px;
+    color: #333;
 }
-.footer .links ul li {
-    display: block;
-    margin-bottom: 8px;
-}
-.footer .links ul li a {
-    color: #fff;
+.shop-blog .shop-single-blog .content .more-btn {
+    font-size: 14px;
     font-weight: 400;
-}
-.footer .social ul {
-    margin-top: 20px;
-}
-.footer .social .contact ul li {
-    color: #fff;
+    color: #3c3c3c;
+    margin-top: 10px;
     display: block;
-    margin-bottom: 4px;
-    font-weight: 400;
 }
-.footer .social ul {
-    margin-top: 20px;
+.pagination {
+    margin: 50px 0 0 0;
+    display: block;
 }
-.footer .social ul li {
+.pagination.center {
+    text-align: center;
+}
+.pagination .pagination-list li {
+    margin-right: 5px;
     display: inline-block;
-    margin-right: 25px;
 }
-.footer .social ul li a {
-    color: #fff;
-    display: block;
+.pagination .pagination-list li a {
+    background: #f6f7fb;
+    color: #666;
+    padding: 6px 18px;
+    font-weight: 400;
+    border: 1px solid #e1e1e1;
     font-size: 16px;
+    border-radius: 0px;
 }
-/* end footer */
+.pagination .pagination-list li.active a {
+    color: #fff;
+    border-color: transparent;
+    background: #add8e6;
+}
+/* end blog */
+
 
 @media only screen and (min-width:768px) and (max-width:991px) {
-    /* start footer */
-    .footer .about .logo img {
-        max-width: 60%;
-    }
-    /* end footer */
     
+    /* satrt contact us */
+/* end contact us */
     
     
     }
-    @media only screen and (max-width:767px){
-    /* start footer */
-    .footer .about .logo img {
-        max-width: 60%;
-    }
-    /* end footer */
+@media only screen and (max-width:767px){
     
-    }
+    /* satrt contact us */
+/* end contact us */
+}
     
-    @media only screen and (max-width:450px){
-    /* start footer */
-    .footer .about .logo img {
-        max-width: 60%;
-    }
-    /* end footer */
-    
-    
-    }
+@media only screen and (max-width:450px){
+    /* satrt contact us */
+/* end contact us */
+}
     

@@ -60,7 +60,7 @@ body {
 /* start middle-inner */
 .header.shop .middle-inner {
     padding: 20px 0;
-    background: rgb(255, 255, 255);
+    background: #fff;
     border-top: 1px solid #eee;
     box-sizing: inherit;
 }
@@ -479,6 +479,7 @@ body {
     position: relative;
 }
 /* end middle-inner */
+
 /* start header-inner */
 .header.shop .header-inner {
     background: #333;
@@ -895,3 +896,201 @@ body {
 }
 
 /* end most popualr */
+
+/* start about us */
+.about-us .about-content {
+    padding-right: 50px;
+    box-sizing: inherit;
+}
+.about-us .about-content h3 {
+    font-size: 30px;
+    font-weight: 800;
+    position: relative;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+.about-us .about-content h3 img {
+    width:195px ;
+}
+.about-us .about-content h3::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -1px;
+    height: 2px;
+    width: 60px;
+    background: #add8e6;
+}
+.about-us .about-content p {
+    line-height: 26px;
+    margin-bottom: 10px;
+    color: #757575;
+    margin: 0;
+}
+.about-us .about-content .button {
+    margin-top: 40px;
+}
+.about-us .about-content .button .btn {
+    color: #fff;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.about-us .about-content .button .btn.primary {
+    background: #add8e6;
+    
+}
+.about-us .about-img {
+    position: relative;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    border: 10px solid #fff;
+}
+/* end about us */
+/* satrt contact us */
+.contact-us {
+    position: relative;
+    z-index: 43;
+}
+.contact-us .form-main {
+    box-shadow: 0px 0px 15px #0000001a;
+    padding: 50px;
+}
+.contact-us .title {
+    margin-bottom: 30px;
+}
+.contact-us .title h4 {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #add8e6;
+}
+.contact-us .title h3 {
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.contact-us .form .form-group label {
+    color: #333;
+    position: relative;
+}
+.contact-us .form .form-group input {
+    height: 48px;
+    line-height: 48px;
+    width: 100%;
+    border: 1px solid #e6e2f5;
+    padding: 0px 20px;
+    color: #333;
+    border-radius: 0px;
+    font-weight: 400;
+}
+.contact-us .form .form-group textarea {
+    height: 180px;
+    width: 100%;
+    border: 1px solid #e6e2f5;
+    padding: 15px 20px;
+    color: #333;
+    border-radius: 0px;
+    resize: none;
+    font-weight: 400;
+}
+.contact-us .form .button .btn {
+    height: 50px;
+    border: none;
+}
+.contact-us .single-head {
+    padding: 50px;
+    box-shadow: 0px 0px 15px #0000001a;
+    height: 100%;
+}
+.contact-us .single-info {
+    text-align: left;
+    margin-bottom: 30px;
+}
+.contact-us .single-info i {
+    color: #fff;
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 15px;
+    height: 40px;
+    width: 40px;
+    display: block;
+    text-align: center;
+    border-radius: 3px;
+    line-height: 40px;
+    background: #add8e6;
+}
+.contact-us .single-info .title {
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #333;
+    font-size: 18px;
+}
+/* end contact us */
+
+/* start footer */
+.footer{
+    background: #222;
+    box-sizing: inherit;
+}
+.footer .about {
+    padding-right: 50px;
+}
+.footer .about .logo {
+    margin-bottom: 14px;
+}
+.footer .about .logo img {
+    max-width: 60%;
+}
+.footer .about .text {
+    color: #fff;
+    font-weight: 400;
+}
+.footer .about .call {
+    color: #fff;
+    margin-top: 15px;
+    font-weight: 400;
+}
+.footer .about .call span {
+    display: block;
+}
+.footer .about .call a {
+    color: #add8e6;
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer .single-footer h4 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.footer .links ul li {
+    display: block;
+    margin-bottom: 8px;
+}
+.footer .links ul li a {
+    color: #fff;
+    font-weight: 400;
+}
+.footer .social ul {
+    margin-top: 20px;
+}
+.footer .social .contact ul li {
+    color: #fff;
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 400;
+}
+.footer .social ul {
+    margin-top: 20px;
+}
+.footer .social ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+.footer .social ul li a {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+}
+/* end footer */
